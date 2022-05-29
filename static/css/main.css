@@ -22,6 +22,14 @@ span {
   color: var(--color-accent);
 }
 
+a {
+  color: var(--color-text);
+  text-decoration: none;
+  cursor: pointer;
+
+  
+}
+
 /* header stuff */
 header {
   display: flex;
@@ -47,14 +55,14 @@ ul.header__list {
   justify-content: flex-end;
 }
 
-nav.header__list {
+a.header__list {
   margin-left: 3.5rem;
   padding-bottom: 0.75rem;
   border-bottom: 3px solid var(--color-background);
 }
 
-nav.active,
-nav.header__list:hover {
+a.active,
+a.header__list:hover {
   border-bottom: 3px solid var(--color-accent);
 }
 
