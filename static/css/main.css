@@ -14,7 +14,7 @@ font-weight: bold;
 
 .container {
   width: 80rem;
-  max-width: calc(100% - 3rem);
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -27,7 +27,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem;
+  padding: 1.5rem 7rem;
 }
 
 .header__logo {
@@ -38,11 +38,23 @@ div.header__list {
   width: 50%;
 }
 
-ul.header__list{
-  width: 90%;
+ul.header__list {
+  width: 100%;
   list-style-type: none;
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
+
+nav.header__list {
+  margin-left: 3.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 3px solid var(--color-background);
+}
+
+nav.active,
+nav.header__list:hover {
+  border-bottom: 3px solid var(--color-accent);
+}
+
