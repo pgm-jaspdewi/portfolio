@@ -1,0 +1,48 @@
+:root {
+  --color-accent: #F19F24;
+  --color-background: #141414;
+  --color-border: #707070;
+  --color-text: #ffffff;
+}
+
+body {
+background-color: var(--color-background);
+color: var(--color-text);
+font-family: 'poppins';
+font-weight: bold;
+}
+
+.container {
+  width: 80rem;
+  max-width: calc(100% - 3rem);
+  margin: 0 auto;
+}
+
+span {
+  color: var(--color-accent);
+}
+
+/* header stuff */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.header__logo {
+  font-size: 3.5rem;
+}
+
+div.header__list {
+  width: 50%;
+}
+
+ul.header__list{
+  width: 90%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}

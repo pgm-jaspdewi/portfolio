@@ -4,7 +4,6 @@
        url('poppins-bold-webfont.woff') format('woff');
   font-weight: bold;
   font-style: normal;
-
 }
 
 @font-face {
@@ -13,5 +12,4 @@
        url('poppins-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
