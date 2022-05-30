@@ -7,9 +7,13 @@
 
 body {
   background-color: var(--color-background);
+  background-image: url(../media/images/backgroundIG.svg);
+  background-position: center; 
+  background-size: cover; 
   color: var(--color-text);
   font-family: 'poppins';
   font-weight: bold;
+  height: 220.5rem;
 }
 
 .container {
@@ -18,18 +22,39 @@ body {
   margin: 0 auto;
 }
 
-h1 {}
+h1 {
+  padding: 1.5rem 0;
+  font-size: 4rem;
+}
 
-h1.logo {
-  font-size: 11.313rem;
-  width: 33%;
-  margin: 0 auto;
+h2 {
+  font-size: 2.625rem;
+}
 
+p {
+  font-weight: normal;
+  font-size: 1.375rem;
+  line-height: 1.5;
 }
 
 .logo {
   text-transform: uppercase;
 }
+
+h1.logo {
+  font-size: 11.313rem;
+  width: 33%;
+  margin: 0 auto;
+  padding: 0;
+
+}
+
+div.logo {
+  padding-top: calc(19.125rem - 6.5rem);
+  padding-bottom: 21.438rem;
+}
+
+
 
 span {
   color: var(--color-accent);
@@ -77,4 +102,16 @@ a.header__list {
 a.active,
 a.header__list:hover {
   border-bottom: 3px solid var(--color-accent);
+}
+
+/* main stuff */
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8.75rem;
+}
+
+.image--laptop {
+  max-width: 24rem;
 }
