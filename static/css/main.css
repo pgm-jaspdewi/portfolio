@@ -6,16 +6,29 @@
 }
 
 body {
-background-color: var(--color-background);
-color: var(--color-text);
-font-family: 'poppins';
-font-weight: bold;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: 'poppins';
+  font-weight: bold;
 }
 
 .container {
-  width: 80rem;
+  width: 85rem;
   max-width: 100%;
   margin: 0 auto;
+}
+
+h1 {}
+
+h1.logo {
+  font-size: 11.313rem;
+  width: 33%;
+  margin: 0 auto;
+
+}
+
+.logo {
+  text-transform: uppercase;
 }
 
 span {
@@ -27,7 +40,7 @@ a {
   text-decoration: none;
   cursor: pointer;
 
-  
+
 }
 
 /* header stuff */
@@ -65,4 +78,3 @@ a.active,
 a.header__list:hover {
   border-bottom: 3px solid var(--color-accent);
 }
-
