@@ -120,3 +120,12 @@ a.header__list:hover {
 .image--laptop {
   max-width: 24rem;
 }
+
+.skill__icons {
+  
+}
+.skill__icon {
+  width: 19%;
+  padding: 1rem 0.5rem;
+  box-sizing: border-box;
+}
