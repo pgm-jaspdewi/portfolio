@@ -106,11 +106,15 @@ a.header__list:hover {
 
 /* main stuff */
 
+.main {
+  padding: 0 8.75rem;
+}
+
 .about {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 0 8.75rem;
+  padding-bottom: 22rem;
 }
 
 .image--laptop {
