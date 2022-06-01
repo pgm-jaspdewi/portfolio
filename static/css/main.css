@@ -5,6 +5,10 @@
   --color-text: #ffffff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--color-background);
   background-image: url(../media/images/backgroundIG.svg);
@@ -113,14 +117,15 @@ a.header__list:hover {
 /* main stuff */
 
 .main {
-  padding: 0 8.75rem;
+  padding: 7.5rem 8.75rem 0;
 }
 
 .about {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding-bottom: 22rem;
+  padding-bottom: 12rem;
+  
 }
 
 .image--laptop {
@@ -128,7 +133,7 @@ a.header__list:hover {
 }
 
 .skills {
-  padding-bottom: 17rem;
+  padding-bottom: 7rem;
 }
 
 .skill__icons {
@@ -139,6 +144,10 @@ a.header__list:hover {
   width: 19%;
   padding: 1rem 0.5rem;
   box-sizing: border-box;
+}
+
+.projects {
+  padding-bottom: 1.125rem;
 }
 
 .project__cards {
@@ -160,4 +169,26 @@ a.header__list:hover {
 .project__title {
   background-color: var(--color-text);
   padding: 1rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact__div {
+  padding-right: 5.188rem;
+}
+
+.contact__h2 {
+  padding-bottom: 2rem;
+}
+
+.contact__p {
+  font-size: 1.25rem;
+}
+
+.contact__a {
+  padding-right: 1.5rem;
 }
