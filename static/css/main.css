@@ -192,3 +192,27 @@ a.header__list:hover {
 .contact__a {
   padding-right: 1.5rem;
 }
+
+
+.button-to-top {
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: var(--color-accent);
+  height: auto;
+  outline: none;
+  position: fixed;
+  left: 50%;
+  bottom: 2.5%;
+  opacity: 0;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.button-to-top--visible {
+  opacity: 1;
+}
+
+img.arrow {
+  width: 100%;
+}
