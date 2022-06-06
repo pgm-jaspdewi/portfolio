@@ -172,7 +172,7 @@ a.header__list:hover {
 }
 
 .project__card--GF19:hover {
-  opacity: 0.75;
+  filter: grayscale(1);
 }
 
 .project__card--todo {
@@ -181,7 +181,7 @@ a.header__list:hover {
 }
 
 .project__card--todo:hover {
-  opacity: 0.75;
+  filter: grayscale(1);
 }
 
 .project__card--sca {
@@ -190,7 +190,7 @@ a.header__list:hover {
 }
 
 .project__card--sca:hover {
-  opacity: 0.75;
+  filter: grayscale(1);
 }
 
 
