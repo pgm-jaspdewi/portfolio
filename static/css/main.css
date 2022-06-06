@@ -206,7 +206,9 @@ a.header__list:hover {
 }
 
 .contact__div {
-  padding-right: 5.188rem;
+  padding-right: 16.25rem;
+  display: flex;
+  flex-direction: column
 }
 
 .contact__h2 {
@@ -215,6 +217,8 @@ a.header__list:hover {
 
 .contact__p {
   font-size: 1.25rem;
+  font-weight: normal;
+  padding-bottom: 0.5rem;
 }
 
 .contact__a {
