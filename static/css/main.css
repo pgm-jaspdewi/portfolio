@@ -219,6 +219,11 @@ a.header__list:hover {
 
 .contact__a {
   padding-right: 1.5rem;
+  fill: var(--color-text);
+}
+
+.contact__a:hover {
+  fill: var(--color-accent);
 }
 
 
