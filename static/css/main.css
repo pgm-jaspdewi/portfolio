@@ -171,15 +171,28 @@ a.header__list:hover {
   background-size:contain;
 }
 
+.project__card--GF19:hover {
+  opacity: 0.75;
+}
+
 .project__card--todo {
   background-image: url(../media/images/Todo.png);
   background-size:contain;
+}
+
+.project__card--todo:hover {
+  opacity: 0.75;
 }
 
 .project__card--sca {
   background-image: url(../media/images/SheCodeAfrica.png);
   background-size:contain;
 }
+
+.project__card--sca:hover {
+  opacity: 0.75;
+}
+
 
 .project__title {
   background-color: var(--color-text);
