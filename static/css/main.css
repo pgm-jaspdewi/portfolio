@@ -11,7 +11,7 @@ html {
 
 body {
   background-color: var(--color-background);
-  background-image: url(../media/images/backgroundIG.svg);
+  /* background-image: url(../media/images/backgroundIG.svg); */
   background-position: center; 
   background-size: cover; 
   color: var(--color-text);
@@ -206,9 +206,13 @@ a.header__list:hover {
 }
 
 .contact__div {
-  padding-right: 16.25rem;
+  margin-right: 12.25rem;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
+  border: 3px solid var(--color-accent);
+  border-radius: 10px 75px 10px 75px;
+  padding: 2rem;
+  background-color: var(--color-accent);
 }
 
 .contact__h2 {
