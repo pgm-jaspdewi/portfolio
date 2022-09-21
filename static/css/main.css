@@ -238,6 +238,7 @@ a.header__list:hover {
 .button-to-top {
   font-size: 1.5rem;
   text-align: center;
+  color: var(--color-text);
   background-color: var(--color-accent);
   height: auto;
   outline: none;
@@ -247,7 +248,8 @@ a.header__list:hover {
   opacity: 0;
   padding: 1rem;
   cursor: pointer;
-  border-radius: 50%;
+  border-radius: 15px;
+  border-color: none;
 }
 
 .button-to-top--visible {
